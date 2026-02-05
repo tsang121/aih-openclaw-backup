@@ -1,0 +1,18 @@
+{
+  "name": "aih-openclaw-backup",
+  "version": "1.0.0",
+  "description": "Backup and restore tool for OpenClaw AI assistants",
+  "main": "aih-backup.js",
+  "scripts": {
+    "start": "node aih-backup.js help",
+    "backup": "node aih-backup.js backup",
+    "list": "node aih-backup.js list",
+    "test": "node aih-backup.js list"
+  },
+  "dependencies": {
+    "pg": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
