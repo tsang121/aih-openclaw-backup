@@ -4,7 +4,7 @@
   "description": "Backup and restore tool for OpenClaw AI assistants",
   "main": "aih-backup.js",
   "scripts": {
-    "start": "node aih-backup.js help",
+    "start": "node aih-backup.js serve",
     "backup": "node aih-backup.js backup",
     "list": "node aih-backup.js list",
     "test": "node aih-backup.js list"
